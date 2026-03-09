@@ -1,0 +1,9 @@
+{
+  "url": "http://ec2-3-145-114-4.us-east-2.compute.amazonaws.com/",
+  "routesPrefix": {
+    "users": "/b5/users",
+    "products": "/b5/products",
+    "orders": "/b5/orders",
+    "cart": "/b5/carts"
+  }
+}
