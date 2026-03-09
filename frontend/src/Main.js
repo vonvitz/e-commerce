@@ -21,7 +21,7 @@ const Main = () => {
   const unsetUser = () => {
     localStorage.clear();
   };
-  const url = 'http://localhost:4005/b5/users/details';
+   const url = `${process.env.REACT_APP_API_BASE_URL}/users/details`;
   useEffect(() => {
     fetch(url, {
       headers: {
