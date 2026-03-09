@@ -17,7 +17,7 @@ const ProductPage = () => {
 
   // Placeholder image URL
   const placeholderImgUrl =
-    "https://via.placeholder.com/286x180.png?text=Placeholder";
+    "https://placehold.co/268x180";
 
   return user.isAdmin ? (
     <Navigate to="/dashboard" />
